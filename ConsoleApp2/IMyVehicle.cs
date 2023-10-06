@@ -12,10 +12,9 @@ namespace ConsoleApp2
     }
     interface IAnimal
     {
-        void animalSound(); // interface method (does not have a body)
+        void animalSound(); 
     }
 
-    // Pig "implements" the IAnimal interface
     class Car : IMyVehicle
     {
         public void PassangerNUm()
