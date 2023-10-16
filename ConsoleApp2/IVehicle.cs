@@ -6,16 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    interface IMyVehicle
+    interface IVehicle
     {
         void PassangerNUm();
     }
-    interface IAnimal
-    {
-        void animalSound(); 
-    }
-
-    class Car : IMyVehicle
+    
+    class Car : IVehicle
     {
         public void PassangerNUm()
         {
@@ -23,14 +19,14 @@ namespace ConsoleApp2
         }
     }
 
-    class Van : IMyVehicle
+    class Van : IVehicle
     {
         public void PassangerNUm()
         {
             Console.WriteLine("Van contanins up to 10 passangers");
         }
     }
-    class Bus : IMyVehicle
+    class Bus : IVehicle
     {
         public void PassangerNUm()
         {

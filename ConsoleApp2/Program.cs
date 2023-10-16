@@ -11,17 +11,20 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Car myCar = new Car();  
-            Van myVan = new Van();
-            Bus myBus = new Bus();
+            Car objCar = new Car();
+            Van objVan = new Van();
+            Bus objBus = new Bus();
+            Truck objTruck= new Truck();
 
-            myCar.PassangerNUm();
-            myVan.PassangerNUm();
-            myBus.PassangerNUm();
+            objCar.PassangerNUm();
+            objVan.PassangerNUm();
+            objBus.PassangerNUm();
+            objTruck.vehicleFuel();
+            objTruck.vehicleWheels();
             Console.ReadKey();
         }
-
-        
+         
     }
-
+    
+    
 }
